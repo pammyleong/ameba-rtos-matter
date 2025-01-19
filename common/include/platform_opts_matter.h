@@ -40,6 +40,9 @@
 // Ameba mDNS Filter
 #define CONFIG_ENABLE_AMEBA_MDNS_FILTER         0
 
+// Ameba - Enhanced Setup Feature (ESF) for terms and conditions
+#define CHIP_ENABLE_AMEBA_TERMS_AND_CONDITION   0
+
 #if defined(CONFIG_EXAMPLE_MATTER) && (CONFIG_EXAMPLE_MATTER == 1)
 #undef CONFIG_EXAMPLE_WLAN_FAST_CONNECT
 #undef CONFIG_FAST_DHCP
